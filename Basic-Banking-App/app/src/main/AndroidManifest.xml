@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sparksbanking">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bank"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/bank"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SparksBanking">
+        <activity android:name=".TransactionActivity"/>
+        <activity android:name=".AllUsersActivity3" />
+        <activity android:name=".AllUsersActivity2" />
+        <activity android:name=".AllUsersActivity1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
